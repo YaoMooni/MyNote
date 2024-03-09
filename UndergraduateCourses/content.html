@@ -7,21 +7,26 @@
 </head>
 <body>
     <h1>UndergraduateCourses</h1>
-
     <h2>化工原理</h2>
-    <button onclick="openPDF()">9.吸收</button>
-    <script>
-        function openPDF() {
-            window.open('https://github.com/YaoMooni/MyNote/blob/main/UndergraduateCourses/化工原理/9.吸收.pdf', '_blank');
-        }
-    </script>
+    <button id="absorptionBtn">9.吸收</button>
 
     <h2>微生物学</h2>
-    <button onclick="openPDF()">0.绪论</button>
+    <button id="introBtn">0.绪论</button>
+
+
+    
     <script>
-        function openPDF() {
-            window.open('https://github.com/YaoMooni/MyNote/blob/main/UndergraduateCourses/微生物学/0.绪论.pdf', '_blank');
-        }
+        const pages = {
+            'absorptionBtn': 'https://github.com/YaoMooni/MyNote/blob/main/UndergraduateCourses/化工原理/9.吸收.pdf',
+            'introBtn': 'https://github.com/YaoMooni/MyNote/blob/main/UndergraduateCourses/微生物学/0.绪论.pdf'
+        };
+
+        Object.keys(pages).forEach(btnId => {
+            const button = document.getElementById(btnId);
+            button.onclick = function() {
+                window.open(pages[btnId], '_blank');
+            };
+        });
     </script>
 </body>
 </html>
