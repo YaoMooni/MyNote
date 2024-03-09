@@ -1,0 +1,102 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[fontset=fandol]{ctex}
+\usepackage{amsmath, amsfonts, amsthm, amssymb, mathrsfs, textgreek} % Some math symbols
+%\usepackage{mathptmx}%Times New Roman
+\usepackage{mhchem, extarrows}
+\usepackage{enumerate}
+\usepackage{enumitem,tasks}
+\usepackage{graphicx, wrapfig}
+\usepackage{hyperref}
+\usepackage[all]{xy}
+\usepackage{wrapfig}
+\usepackage{fancyvrb, fancyhdr}
+\usepackage{listings, seqsplit, float}
+\usepackage{marginnote, tcolorbox, multicol, balance}
+\columnseprule=0.4pt
+\usepackage{lineno, lipsum}
+\usepackage{tikz, tikz-cd,pgfplots}
+\usetikzlibrary{decorations.pathreplacing}
+\usepackage{geometry, titlesec}
+\geometry{a4paper,left=2cm,right=5cm,top=3cm,bottom=3cm, marginparsep=8pt}
+\usepackage{centernot}
+\usepackage{mathtools, siunitx}
+\usepackage{booktabs}
+
+\usepackage{forest}
+\forestset{
+	forest scheme/.style={
+		for tree={
+			inner sep=0pt,
+			outer sep=0pt,
+			fit=band,
+			child anchor=west,
+			parent anchor=east,
+			grow'=0,
+			anchor=west,
+			align=left,
+			if n=1{
+				edge path'={(!u1.west) -- (!ul.west);}
+			}{no edge},
+			edge={decorate, decoration={brace,amplitude=1.5mm,mirror,raise=2mm}},
+		},
+	}
+}
+\newcommand{\xyforest}[1]{\begin{forest}forest scheme [#1]\end{forest}}
+
+\DeclarePairedDelimiter{\ceil}{\lceil}{\rceil}
+\DeclarePairedDelimiter{\floor}{\lfloor}{\rfloor}
+\DeclarePairedDelimiter{\card}{\vert}{\vert}
+
+
+%\setlength{\parindent}{0pt}
+%\setlength{\parskip}{5pt plus 1pt}
+\pagestyle{empty}
+
+\newcommand{\myname}{肖遥} %Write your name in here
+\newcommand{\myUCO}{2021\,1414\,90279} %write your UCO in here
+\newcommand{\myhwtype}{\textbf{\S 9 吸收}}
+\newcommand{\myhwnum}{\textbf{笔记-v1}} %Homework set number
+\newcommand{\myclass}{\textbf{化工原理I-2笔记\quad}}
+\newcommand{\mylecture}{}
+\newcommand{\mysection}{}
+
+
+
+\titleformat{\section}
+{\normalfont\Large\bfseries} % 标题字体样式
+{\zhnumber{\thesection}、 } % 标题编号
+{0pt} % 标题与正文之间的距离
+{} % 标题前的代码
+[\vspace{0.3em} \hrule width0.3\columnwidth \vspace{.1in}] % 标题后的代码
+
+\titleformat{\subsubsection}
+{\normalfont\normalsize\bfseries}{\qquad\arabic{subsubsection}.}{0.5em}{}
+
+\newcommand{\stsub}[2]{#1_\text{#2}}
+\newcommand{\Partial}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand{\nPartial}[3]{\frac{\partial^#3 #1}{\partial #2^#3}}
+
+
+\newcommand{\xymargin}[1]{\marginnote{\kaishu{\fontsize{10}{10}\selectfont \begin{tcolorbox}[boxrule=0.5pt,  colback=cyan!5, colframe=cyan!95, width=105 pt, boxsep=0pt, left=2pt, right=2pt] #1 \end{tcolorbox}}}}
+\newcommand{\xytcolorbox}[1]{\begin{tcolorbox}[boxrule=0.5pt,  colback=cyan!5, colframe=cyan!95] #1 \end{tcolorbox}}
+
+\title{\myhwtype}
+\author{\myname}
+
+\pagestyle{fancy}
+
+\lhead{\textbf{\myclass\ \mylecture\mysection}}%
+\chead{\textbf{\myhwtype\quad\leftmark}}%
+\rhead{\textbf{\rightmark}}
+
+\begin{document}
+	\thispagestyle{plain}
+	\begin{center}
+		{\Large \fontsize{16pt}{18pt}\selectfont \myhwtype{} } \\
+		\myname{} (\myUCO{}) \\
+		\today
+	\end{center}
+
+
+
+\end{document}
