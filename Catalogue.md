@@ -44,9 +44,9 @@
 
 ### 物理化学
 
-|     章节      |                    PDF下载链接                    |                       Github 查看地址                        |
-| :-----------: | :-----------------------------------------------: | :----------------------------------------------------------: |
-| 第七章 电化学 | [○](.\UndergraduateCourses\物理化学\7.电化学.pdf) | [○](https://github.com/YaoMooni/MyNote/blob/main/UndergraduateCourses/%E7%89%A9%E7%90%86%E5%8C%96%E5%AD%A6/7.%E7%94%B5%E5%8C%96%E5%AD%A6.pdf) |
+|     章节      |                   PDF下载链接                    |                       Github 查看地址                        |
+| :-----------: | :----------------------------------------------: | :----------------------------------------------------------: |
+| 第七章 电化学 | [○](\UndergraduateCourses\物理化学\7.电化学.pdf) | [○](https://github.com/YaoMooni/MyNote/blob/main/UndergraduateCourses/%E7%89%A9%E7%90%86%E5%8C%96%E5%AD%A6/7.%E7%94%B5%E5%8C%96%E5%AD%A6.pdf) |
 
 
 
