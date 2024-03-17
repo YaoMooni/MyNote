@@ -1,4 +1,4 @@
-# Catalogue of Xiao Yao’s Notes 
+# Catalogue of Xiao Yao’s Notes
 
 ## Undergraduate Courses
 
