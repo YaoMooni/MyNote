@@ -52,8 +52,13 @@
 
 ### 微生物学
 
-|     章节      |                      PDF下载链接                      | Github 查看地址 |
-| :-----------: | :---------------------------------------------------: | :-------------: |
-|    0. 绪论    |    [○](.\UndergraduateCourses\微生物学\0.绪论.pdf)    |                 |
-| 1. 原核微生物 | [○](.\UndergraduateCourses\微生物学\1.原核微生物.pdf) |                 |
+|     章节      |                      PDF下载链接                      |                       Github 查看地址                        |
+| :-----------: | :---------------------------------------------------: | :----------------------------------------------------------: |
+|    0. 绪论    |    [○](.\UndergraduateCourses\微生物学\0.绪论.pdf)    | [○](https://github.com/YaoMooni/MyNote/blob/main/UndergraduateCourses/%E5%BE%AE%E7%94%9F%E7%89%A9%E5%AD%A6/0.%E7%BB%AA%E8%AE%BA.pdf) |
+| 1. 原核微生物 | [○](.\UndergraduateCourses\微生物学\1.原核微生物.pdf) | [○](https://github.com/YaoMooni/MyNote/blob/main/UndergraduateCourses/%E5%BE%AE%E7%94%9F%E7%89%A9%E5%AD%A6/1.%E5%8E%9F%E6%A0%B8%E5%BE%AE%E7%94%9F%E7%89%A9.pdf) |
 
+
+
+
+
+[$\LaTeX$ 笔记模板（未封装）](https://github.com/YaoMooni/MyNote/blob/main/UndergraduateCourses/LaTeX%E7%AC%94%E8%AE%B0%E6%A8%A1%E6%9D%BF%EF%BC%88%E6%9C%AA%E5%B0%81%E8%A3%85%EF%BC%89/xynote.tex)
