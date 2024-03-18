@@ -32,7 +32,7 @@
 
 [0. 习思想的历史地位](.\UndergraduateCourses\习近平新时代中国特色社会主义思想概论\0.习近平新时代中国特色社会主义思想及其历史地位.html)
 
-[1.新时代坚持和发展中国特色社会主义]()
+[1.新时代坚持和发展中国特色社会主义](https://htmlpreview.github.io/?https://github.com/YaoMooni/MyNote/blob/main/UndergraduateCourses/%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%96%B0%E6%97%B6%E4%BB%A3%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89%E6%80%9D%E6%83%B3%E6%A6%82%E8%AE%BA/1.%E6%96%B0%E6%97%B6%E4%BB%A3%E5%9D%9A%E6%8C%81%E5%92%8C%E5%8F%91%E5%B1%95%E4%B8%AD%E5%9B%BD%E7%89%B9%E8%89%B2%E7%A4%BE%E4%BC%9A%E4%B8%BB%E4%B9%89.html)
 
 
 
